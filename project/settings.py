@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['52.66.239.49', '*']
 
+CSRF_TRUSTED_ORIGINS = ['https://student-django-1.onrender.com']
+
 
 # Application definition
 
